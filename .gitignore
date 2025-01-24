@@ -1,0 +1,5 @@
+# SQLite database
+bottom_feeder.db
+
+# Virtual environment
+venv/
