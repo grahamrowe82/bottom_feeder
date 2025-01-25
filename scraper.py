@@ -22,6 +22,9 @@ db_filename = 'bottom_feeder.db'
 # Create the SQLite engine
 engine = create_engine(f'sqlite:///{db_filename}')
 
+# Ensure the database and tables are created
+Base.metadata.create_all(engine)
+
 # Create a configured "Session" class
 Session = sessionmaker(bind=engine)
 
