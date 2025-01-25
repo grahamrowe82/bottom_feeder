@@ -12,3 +12,9 @@ __pycache__/
 
 # Ignore backup database files
 *.db
+
+# macOS system files
+.DS_Store
+
+# Backup environment files
+.env.save
